@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+#ff{
+  font-family: 'Dancing Script', cursive;
+  margin-top: 0;
+  position:relative;
+  bottom:110px;
+  color:#45B39D ;
+  font-weight: normal;
+
+}
+#gg{
+  margin:0;
+  position:relative;
+  bottom:180px;
+  font-family: 'Baloo Bhaina 2', cursive;
+  color: #45B39D;
+  font-weight: normal;
+}
+#top-container{
+  width:1620px;
+  height:655px;
+  background-color:#D1F2EB;
+  margin-top: 0;
+  padding:50px;
+}
+
+#dd{
+  width:1500px;
+  height:600px;
+  background-color:white;
+}
+
+#cloud1{
+  position:relative;
+  left:340px;
+  top:80px;
+}
+
+#cloud2{
+  position:relative;
+  bottom:400px;
+}
+
+#mountain{
+  position: relative;
+  right:120px;
+  bottom:100px;
+}
+
+.profile{
+  height:500px;
+}
+
+#mypic{
+  padding-top:100px;
+  width:10%;
+}
+
+#h{
+  color: red;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.footer-link{
+  color: #024249;
+  font-family: 'Baloo Bhaina 2', cursive;
+  margin: 40px 20px;
+  text-decoration:none;
+}
+
+.p{
+  color: #4cbbb9;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#k{
+  color: #4cbbb9;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#myinfo{
+  width:30%;
+  margin:auto;
+}
+
+/*This is the most important part started from here :->       */
+.skill-row{
+  width:50%;    /* NOTE: to make width of the text & images occupy half the page size. */
+  margin: 100px auto;   /* NOTE: top&bottom:100px to create space in top and bottom area and left&right:auto to shift everything to center of the page. */
+  text-align:left;    /* NOTE: To make the text align to left to make it look good and more readable. */
+  line-height: 2;     /* NOTE: This is done to create a gap between lines to make them more readable.*/
+}
+
+p{
+  line-height: 2;      /* NOTE:Now for all the paragraphs/lines in the page:-to create a gap between lines to make them more readable.*/
+}
+
+.m{
+  width: 25%;   /* NOTE: For lowering the size of the image according to the size of the text(we wanted to make the size of image to half that of text so text:50% then image:25%)*/
+  float: left;  /* NOTE: for moving the image on the left of the text. */
+  margin-right: 30px;   /* NOTE: For making the image and text to get separated by a space(margin) . */
+}
+
+.n{
+  width: 25%;
+  float: right;   /* NOTE: for moving the image on the right of the text. */
+  margin-left: 30px;
+}
+
+.l{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.middle-container{
+  background-color: #edffea;
+  padding-bottom: 40px;
+}
+
+/* NOTE:Very important:-> To make little dots for separating sections. */
+hr{
+  border: dotted 6px #00909e;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+
+#i{
+  width:40%;
+  margin: 40px auto 60px auto;
+}
+
+#t{
+  color: #16817a;
+}
+
+#y{
+  color:#4cbbb9;
+}
+
+.btn{
+  font-family: 'Baloo Bhaina 2', cursive;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px #637682;
+  padding: 8px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
+}
+.btn:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2bc4ad);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2bc4ad);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2bc4ad));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2bc4ad);
+}
+
+.bottom-container{
+  margin-bottom:0;
+  padding:40px;
+  background-color: #18b0b0;
+}
+
+#copyright{
+  margin-bottom: 0;
+  padding: 50px 0 20px 0;
+  color:#EAF6F6;
+  font-size: 0.8rem;
+}
+
+.footer-link:hover {
+  color:#b2ebf2;
+}
